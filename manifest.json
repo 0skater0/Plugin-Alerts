@@ -1,7 +1,7 @@
 {
   "id": "alerts",
   "name": "Alerts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "One inbox for every alert in Termix, with delivery to webhooks, ntfy, Discord and email.",
   "author": {
     "name": "Termix"
@@ -39,7 +39,10 @@
         "id": "alerts",
         "titleKey": "nav.alerts",
         "icon": "Bell",
-        "openFrom": ["rail", "palette"]
+        "openFrom": [
+          "rail",
+          "palette"
+        ]
       }
     ],
     "permissions": [
@@ -47,7 +50,10 @@
         "name": "use",
         "titleKey": "permissions.use.title",
         "descriptionKey": "permissions.use.description",
-        "defaultRoles": ["admin", "user"]
+        "defaultRoles": [
+          "admin",
+          "user"
+        ]
       }
     ],
     "settings": {
@@ -157,8 +163,14 @@
         }
       ]
     },
-    "uses": ["homepage.widgets"]
+    "uses": [
+      "homepage.widgets"
+    ]
   },
   "locales": "locales",
-  "platforms": ["linux", "win32", "darwin"]
+  "platforms": [
+    "linux",
+    "win32",
+    "darwin"
+  ]
 }
