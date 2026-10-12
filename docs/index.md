@@ -29,9 +29,9 @@ Termix blocks sending to private network addresses by default. To send to someth
 
 A rule picks which alerts go to which channels. Under Delivery rules, set:
 
-- **Alerts to send**: `*` for everything, `automations.*` for everything from Automations, or one exact kind.
-- **At least**: the lowest severity to send.
-- **Send to**: one or more of your channels.
+- Alerts to send: `*` for everything, `automations.*` for everything from Automations, or one exact kind.
+- At least: the lowest severity to send.
+- Send to: one or more of your channels.
 
 Without rules, alerts only show in the inbox.
 
